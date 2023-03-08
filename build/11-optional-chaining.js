@@ -1,0 +1,17 @@
+"use strict";
+/*
+    ===== Código de TypeScript =====
+*/
+const pasajero1 = {
+    nombre: 'Fernando'
+};
+const pasajero2 = {
+    nombre: 'Melissa',
+    hijos: ['Natalia', 'Gabriel']
+};
+function imprimeHijos(pasajero) {
+    var _a;
+    const cuantosHijos = ((_a = pasajero.hijos) === null || _a === void 0 ? void 0 : _a.length) || 0;
+    console.log(cuantosHijos);
+}
+imprimeHijos(pasajero1);
